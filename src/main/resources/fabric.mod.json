@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "splashremover",
+  "version": "${version}",
+  "name": "SplashRemover",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/splashremover/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "gg.blackdev.splashremover.client.SplashremoverClient"
+    ],
+    "main": [
+      "gg.blackdev.splashremover.Splashremover"
+    ]
+  },
+  "mixins": [
+    "splashremover.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

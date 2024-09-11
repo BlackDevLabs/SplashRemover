@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gg.blackdev.splashremover.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SplashMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
